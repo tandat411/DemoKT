@@ -13,6 +13,7 @@ namespace Demo
     {
         int A;
         int b;
+        int c;
         public Form1()
         {
             InitializeComponent();
