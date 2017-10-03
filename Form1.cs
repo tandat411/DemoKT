@@ -11,7 +11,7 @@ namespace Demo
 {
     public partial class Form1 : Form
     {
-        int a;
+        int A;
         int b;
         public Form1()
         {
@@ -20,17 +20,17 @@ namespace Demo
 
         private void button1_Click(object sender, EventArgs e)
         {
-            a = Convert.ToInt32( textBox1.Text);
+            A = Convert.ToInt32( textBox1.Text);
             b = Convert.ToInt32( textBox2.Text);
-            int kq = a + b;
+            int kq = A + b;
             textBox3.Text = kq.ToString();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            a = Convert.ToInt32(textBox1.Text);
+            A = Convert.ToInt32(textBox1.Text);
             b = Convert.ToInt32(textBox2.Text);
-            int kq = a - b;
+            int kq = A - b;
             textBox3.Text = kq.ToString();
         }
     }
